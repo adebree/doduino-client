@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Alles"/>    
+	    
+	    <Button
+	        android:id="@+id/uit_alles"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="UIT" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />            
+
+    <View 
+    	android:layout_height="8dip" />
+
+	<TableRow>
+	    <TextView
+	        android:id="@+id/label_mv"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+	        android:text="MV"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_mv"
+	        android:layout_width="70dp"
+			android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_mv"
+	        android:layout_width="70dp"
+			android:layout_height="wrap_content"
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_mv"
+	        android:layout_width="70dp"
+			android:layout_height="wrap_content"
+	        android:text="UIT" />  
+	          	        
+   		<View 
+   			android:layout_width="70dp"
+   			android:layout_height="0dp" 
+   		 
+   		/>  
+    </TableRow>
+    
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />    
+
+    <View 
+    	android:layout_height="8dip" />
+    
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Keuken"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_keuken"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_keuken"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_keuken"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:id="@+id/label_woonkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Woonkamer"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_woonkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_woonkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_woonkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Eettafel"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_eettafel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_eettafel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/laagst_eettafel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAGST" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />        
+
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Slaapkamer"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_slaapkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_slaapkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_slaapkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />        
+
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Badkamer"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_badkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_badkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_badkamer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+                
+
+    <View 
+    	android:layout_height="8dip" />	
+
+    <TableRow>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Toilet"/>    
+	    
+	    <Button
+	        android:id="@+id/hoog_toilet"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/laag_toilet"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/uit_toilet"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+   
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />        
+
+    <View 
+    	android:layout_height="8dip" />	
+        
+    <TableRow>
+	    <TextView
+	        android:id="@+id/label_li_5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Gang"/>    
+	    
+	    <Button
+	        android:id="@+id/max_li_5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HOOG" />
+	        
+	    <Button
+	        android:id="@+id/low_li_5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="LAAG" />
+	        
+	    <Button
+	        android:id="@+id/off_li_5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />	
+
+
+    <View 
+    	android:layout_height="8dip" />	
+        
+    <TableRow>
+	    <TextView
+	        android:id="@+id/label_sw_3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Buiten"/>    
+	    
+	    <Button
+	        android:id="@+id/on_sw_3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="AAN" />
+	        	        
+	    <Button
+	        android:id="@+id/off_sw_3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="UIT" />
+	        
+	</TableRow>
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />	
+
+        
+</TableLayout>
+</ScrollView>
