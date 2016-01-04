@@ -181,11 +181,11 @@ public class DoDuino extends Activity {
         		
         		qparams.add(new BasicNameValuePair( "li_0", "170" ));
         		qparams.add(new BasicNameValuePair( "li_1", "175" ));
-        		qparams.add(new BasicNameValuePair( "li_2", "67"  ));
-        		qparams.add(new BasicNameValuePair( "li_3", "190" ));
-        		qparams.add(new BasicNameValuePair( "li_6", "104" ));
+        		qparams.add(new BasicNameValuePair( "li_2", "100"  ));
+        		qparams.add(new BasicNameValuePair( "li_3", "125" ));
+        		qparams.add(new BasicNameValuePair( "li_6", "110" ));
         		qparams.add(new BasicNameValuePair( "li_7", "120" ));
-        		qparams.add(new BasicNameValuePair( "li_9", "65" ));
+        		qparams.add(new BasicNameValuePair( "li_9", "115" ));
         		
         		qparams.add(new BasicNameValuePair( "sw_2", "1"  ));
         		qparams.add(new BasicNameValuePair( "sw_6", "0"  ));
@@ -203,7 +203,7 @@ public class DoDuino extends Activity {
         		qparams.add(new BasicNameValuePair( "li_0", "140" ));
         		qparams.add(new BasicNameValuePair( "li_1", "138" ));
         		qparams.add(new BasicNameValuePair( "li_2", "48"  ));
-        		qparams.add(new BasicNameValuePair( "li_3", "117" ));
+        		qparams.add(new BasicNameValuePair( "li_3", "85" ));
         		qparams.add(new BasicNameValuePair( "li_6", "70" ));
         		qparams.add(new BasicNameValuePair( "li_7", "80" ));
         		qparams.add(new BasicNameValuePair( "li_9", "50" ));
@@ -236,6 +236,27 @@ public class DoDuino extends Activity {
         		doDuinoClient.set( qparams );        		
         	}
         });
+        
+        ((Button)findViewById(R.id.max_woonkamer)).setOnClickListener(new OnClickListener() {
+        	public void onClick( View v ) {
+        		Toast.makeText(getApplicationContext(), "Uit", Toast.LENGTH_SHORT).show();
+        		
+        		List<NameValuePair> qparams = new ArrayList<NameValuePair>();
+        		
+        		qparams.add(new BasicNameValuePair( "li_0", "255" ));
+        		qparams.add(new BasicNameValuePair( "li_1", "255" ));
+        		qparams.add(new BasicNameValuePair( "li_2", "255"  ));
+        		qparams.add(new BasicNameValuePair( "li_3", "255" ));
+        		qparams.add(new BasicNameValuePair( "li_6", "255" ));
+        		qparams.add(new BasicNameValuePair( "li_7", "255" ));
+        		qparams.add(new BasicNameValuePair( "li_9", "255" ));
+        		
+        		qparams.add(new BasicNameValuePair( "sw_2", "1"  ));
+        		qparams.add(new BasicNameValuePair( "sw_6", "1"  ));
+        		
+        		doDuinoClient.set( qparams );        		
+        	}
+        });        
         
         ((Button)findViewById(R.id.hoog_eettafel)).setOnClickListener(new OnClickListener() {
         	public void onClick( View v ) {

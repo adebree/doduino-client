@@ -10,9 +10,11 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 public class DoDuinoClient {
-//	static final String HOST = "http://192.168.0.11:80";
-	static final String HOST = "http://178.84.203.207:81";
+//	static final String HOST = "http://178.84.205.74:81";
+//	static final String HOST = "http://178.84.203.207:81";
 //	static final String HOST = "http://192.168.0.5:81";
+	static final String HOST = "http://h.de-bree.nl:81";
+	
 	static final String CMD_SWITCH 	= "setSwitchChannel";
 	static final String CMD_LIGHT 	= "setLightChannel";
 //	static final String CMD_SET 	= "post.php";
@@ -37,7 +39,10 @@ public class DoDuinoClient {
 			// Ignore, DoDuino web doesn't behave nicely when it comes down to responses
 			//
 			
+			System.err.println( "NoHttpResponseException" );
+			
 		} catch( Exception e ) {
+			System.err.println( "Exception" );
 				
 		}
 	}
